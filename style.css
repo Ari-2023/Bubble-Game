@@ -1,0 +1,94 @@
+*{
+    margin : 0;
+    padding : 0;
+    
+    font-family: 'Foldit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(163, 186, 211);
+    
+}
+
+#pannel{
+    /* ptop krar jnno border ta pannel1 r dekha jchilo na tai overflow use kra holo */
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #d3cdcdf5;
+}
+
+#ptop{
+    padding: 0px 20%;
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #057c97df;
+}
+
+.class{
+    /* width: 10% ; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.class h2{
+    font-weight: 200 ;
+    font-size: 22px;
+}
+
+.box{
+    color: #17485e;
+    font-weight: 600;
+    font-size: 22px;
+    padding:10px 20px;
+    background-color: #fff;
+    border-radius:5px;
+
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(103, 171, 210);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color:rgb(86, 65, 148);
+}
